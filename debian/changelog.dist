@@ -1,4 +1,4 @@
-pycharm (0.0.1) stable; urgency=medium
+pycharm-community (0.0.1) stable; urgency=medium
 
   * This is not a normal changelog file. It gets updated in the packaging progress, by update.sh
   * The version is derived from the pycharm-community-x.x.x.tar.gz
