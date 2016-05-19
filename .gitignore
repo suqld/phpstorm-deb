@@ -1,9 +1,9 @@
-/PyCharm-*.tar.gz
+/pycharm-community-*.tar.gz
 /build-stamp
 /debian/build-stamp
 /debian/files
-/debian/pycharm.debhelper.log
-/debian/pycharm/
-/debian/pycharm.substvars
+/debian/pycharm-community.debhelper.log
+/debian/pycharm-community/
+/debian/pycharm-community.substvars
 *~
 /debian/changelog

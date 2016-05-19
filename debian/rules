@@ -22,17 +22,17 @@ install: build
 	dh_installdirs
 
 	# Untar and move upstream version
-	tar --directory $(CURDIR)/debian/pycharm/opt -xzf pycharm-community-$(VERSION).tar.gz
-	mv $(CURDIR)/debian/pycharm/opt/$(BUILD) $(CURDIR)/debian/pycharm/opt/PyCharm
+	tar --directory $(CURDIR)/debian/pycharm-community/opt -xzf pycharm-community-$(VERSION).tar.gz
+	mv $(CURDIR)/debian/pycharm-community/opt/$(BUILD) $(CURDIR)/debian/pycharm-community/opt/PyCharm
 
 	# Create desktop item for menu
-	cp pycharm.desktop $(CURDIR)/debian/pycharm/usr/share/applications
+	cp pycharm.desktop $(CURDIR)/debian/pycharm-community/usr/share/applications
 
 	# Create symlink in /usr/bin
 	dh_link opt/PyCharm/bin/pycharm.sh usr/bin/pycharm
 
 	# Create gconf defaults for pbfile:// urls
-	#cp pycharm.schemas $(CURDIR)/debian/pycharm/usr/share/gconf/schemas
+	#cp pycharm.schemas $(CURDIR)/debian/pycharm-community/usr/share/gconf/schemas
 
 
 binary-indep: build install
