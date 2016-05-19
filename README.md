@@ -1,6 +1,3 @@
-!! I CHANGED THE WAY THIS TOOL WORKS. SEE BELOW !!
-==================================================
-
 pycharm-deb
 =============
 
@@ -44,5 +41,5 @@ Install the package with the `dpkg` command:
 dpkg -i PyCharm...
 ```
 
-Alternatively, you can create your own [simple repo](https://wiki.debian.org/DebianRepository/HowTo/TrivialRepository) or 
+Alternatively, you can create your own [simple repo](https://wiki.debian.org/DebianRepository/HowTo/TrivialRepository) or
 [more professional one](https://wiki.debian.org/SettingUpSignedAptRepositoryWithReprepro) to host your custom `deb` packages.
