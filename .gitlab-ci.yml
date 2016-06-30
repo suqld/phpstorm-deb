@@ -1,0 +1,5 @@
+before_script:
+  - apt-get install -y devscripts debhelper
+
+job_build:
+  script: ./build.sh
