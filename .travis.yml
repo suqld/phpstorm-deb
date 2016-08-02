@@ -1,0 +1,7 @@
+addons:
+  apt:
+    packages:
+      - devscripts
+      - debhelper
+script:
+  - ./build.sh
